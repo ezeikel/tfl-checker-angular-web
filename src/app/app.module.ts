@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { StatusComponent } from './status/status.component';
 import { PlannerComponent } from './planner/planner.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { PlannerComponent } from './planner/planner.component';
     PlannerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
