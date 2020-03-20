@@ -4,9 +4,9 @@ import { CommonModule } from '@angular/common';
 import { StatusComponent } from './status/status.component';
 import { PlannerComponent } from './planner/planner.component';
 
-const routes: Routes =[
+const routes: Routes = [
   { path: '', component: StatusComponent },
-  { path: '/planner', component: PlannerComponent },
+  { path: 'planner', component: PlannerComponent },
   { path: '**', component: StatusComponent }
 ];
 
